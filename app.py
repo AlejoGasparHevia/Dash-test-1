@@ -29,7 +29,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], prevent_i
 
 app.layout = dbc.Container([
     dbc.Row([
-         dbc.Col(html.H1("Simple Dash ADRs",
+         dbc.Col(html.H1("Dash ARS ADRs",
                         className='text-center text-primary, mb4'),
                 width=12)  
     ]),
